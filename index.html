@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>超難問クイズ</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>執政官（コンスル）の一人を<br>平民会から選出することを定めた法律は何？</h1>
+  <section class="container">
+    <p id="question"></p>
+    <ul id="choices"></ul>
+    <div id="btn" class="disabled">Next</div>
 
-  <ul class="options">
-    <li >
-      <a href="win.html" class="win">リキニウス＝セクスティウス法</a>
-    </li>
-    <li >
-      <a href="lose.html" class="lose">ホルテンシウス法</a>
-    </li>
+    <section id="result" class="hidden">
+      <p></p>
+      <a href="">Replay?</a>
+    </section>
+  </section>
 
-  </ul>
+  <script src="js/main.js"></script>
 </body>
 </html>
